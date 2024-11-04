@@ -1,0 +1,39 @@
+.skills-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #0004ff;
+    border-radius: 8px;
+    background-color: #000000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #ff0000;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.skill-item:last-child {
+    border-bottom: none; /* Menghapus border di item terakhir */
+}
+
+.skill-name {
+    font-weight: bold;
+}
+
+.skill-level {
+    color: #ffffff;
+}
+
